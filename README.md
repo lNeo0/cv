@@ -1,4 +1,4 @@
-# cv Maxime Consigny
+# CV Maxime Consigny
 
 ## Project setup
 ```
