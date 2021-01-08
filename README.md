@@ -9,16 +9,6 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+J'ai fait mon CV avec le frameworks Vue.js/Vuetify.
+J'ai utiliser quelques méthodes de vuetify pour me faciliter la tâche.
+Pour lancer le cv il faut tout d'abord faire un npm install dans le dossier puis faire npm run serve.
