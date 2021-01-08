@@ -5,35 +5,35 @@
 				<v-col class="col-5 left red darken-4 white--text pa-0">
 					<v-img :src="img" max-height="400" />
 					<div class="pa-5">
-						<v-card-title class="font-weight-bold">Contact</v-card-title>
+						<v-card-title class="font-weight-bold">Contacts</v-card-title>
 						<div class="d-flex flex-column">
 							<p><v-icon class="mr-2">mdi-cellphone</v-icon> 06 50 84 95 71</p>
 							<p>
 								<v-icon class="mr-2">mdi-mail</v-icon>
-								monadressemail@gmail.com
+								monadresse@gmail.com
 							</p>
-							<p><v-icon class="mr-2">mdi-home</v-icon> 5 rue de la liberté</p>
+							<p><v-icon class="mr-2">mdi-home</v-icon> 5 rue de la liberté Paris</p>
 							<p><v-icon class="mr-2">mdi-email</v-icon> 75400</p>
 						</div>
 						<v-card-title class="font-weight-bold">A propos de moi</v-card-title>
 						<p class="px-7 about-me">
 							20 ans, passionné depuis mon
-plus jeune âge par
-l’informatique, il était évident
-que j’en fasse mon métier.
-Actuellement apprenti chez EDF
+							plus jeune âge par
+							l’informatique, il était évident
+							que j’en fasse mon métier.<br><br>
 
-en tant qu'analyste-
-développeur, ces deux années
+							Actuellement apprenti chez EDF
+							en tant qu'analyste-
+							développeur, ces deux années
+							m’ont permis de valider mon
+							choix et de découvrir le métier
+							d’ingénieur dans mes relations
+							avec mon maître d'apprentissage.<br><br>
 
-m’ont permis de valider mon
-choix et de découvrir le métier
-d’ingénieur dans mes relations
-avec mon maître d'apprentissage.
-Mon souhait est d’élargir mes
-compétences ainsi que mes
-connaissances pour devenir
-ingénieur en informatique.
+							Mon souhait est d’élargir mes
+							compétences ainsi que mes
+							connaissances pour devenir
+							ingénieur en informatique.
 						</p>
 					</div>
 				</v-col>
@@ -45,7 +45,7 @@ ingénieur en informatique.
 						<h3 class="text-center">Alternant analyste métier</h3>
 					</div>
 					<v-card-title class="red--text text--darken-4 font-weight-bold"
-						>Compétence</v-card-title
+						>COMPÉTENCES</v-card-title
 					>
 					<h3 class="mb-3">Savoir faire</h3>
 					<ul>
@@ -59,8 +59,7 @@ ingénieur en informatique.
 						</div>
 						<div class="d-flex align-center">
 							<p>
-								Lorem Ipsum is simply dummy text of the printing and industry.
-								Lorem Ipsum has been the industry's standard dummy texts
+								Plusieurs séjours en famille d'accueil dans des pays anglophones (Norvège, Angleterre et Etats-Unis)
 							</p>
 						</div>
 					</div>
@@ -89,7 +88,7 @@ ingénieur en informatique.
 						</div>
 					</div>
 					<v-card-title class="red--text text--darken-4 font-weight-bold"
-						>Formations</v-card-title
+						>FORMATIONS</v-card-title
 					>
 					<div class="formation d-flex">
 						<div class="col-4">
@@ -100,10 +99,10 @@ ingénieur en informatique.
 							<v-card-subtitle class="pt-0">Projet à EDF</v-card-subtitle>
 							<ul>
 								<li>
-									Lorem Ipsum is simply dummy text of the printing and industry
+									Développement d'un outil de visualisation de charge de travail.
 								</li>
 								<li>
-									Lorem Ipsum is simply dummy text of the printing and industry
+									Gestion d'un groupe de développeurs (gestion de projet encadré par mon tuteur).
 								</li>
 							</ul>
 						</div>
@@ -124,7 +123,7 @@ ingénieur en informatique.
 						</div>
 					</div>
 					<v-card-title class="red--text text--darken-4 font-weight-bold"
-						>Centres d'intérêt</v-card-title
+						>CENTRES D’INTÉRÊT</v-card-title
 					>
 					<ul>
 						<li v-for="interet in interets" :key="interet">{{ interet }}</li>
@@ -142,9 +141,11 @@ export default {
 		return {
 			img: require("./assets/IMG_1190.jpeg"),
 			items: [
-				"Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy texts",
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text home",
-				"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text people"
+				"Analyse de besoin, définition et rédaction du cahier des charges.",
+				"Planification de projet (Gantt, méthode Agile/Scrum) avec détermination des besoins matériels et humains.",
+				"Rédaction de spécifications techniques.",
+				"Conception et développement d'applications informatiques.",
+				"Communication (Eloquence), animation de réunions."
 			],
 			languagesIt: [
 				{
@@ -153,15 +154,15 @@ export default {
 				},
 				{
 					name: "Java",
-					note: 4.5
+					note: 3.5
 				},
 				{
 					name: "SQL",
-					note: 4.5
+					note: 4
 				},
 				{
 					name: "Web",
-					note: 3
+					note: 2.5
 				}
 			],
 			notes: [
@@ -170,7 +171,7 @@ export default {
 				"Anglais Euro / Maths Euro: 17",
 				"Physique Chimie: 13"
 			],
-			interets: ["Sports", "Guitare", "Aviron"]
+			interets: ["Sports", "Guitare", "Aviron", "Veilles de technologies"]
 		};
 	}
 };
